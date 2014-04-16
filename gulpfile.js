@@ -78,4 +78,5 @@ gulp.task("bowerFiles", function(){
 });
 
 // What tasks does running gulp trigger?
-gulp.task('default', ['bowerFiles', 'public-less', 'admin-less', 'public-js', 'phpunit', 'watch']);
+gulp.task('default', ['bowerFiles', 'public-less', 'admin-less', 'public-js']);
+// , 'phpunit', 'watch'
